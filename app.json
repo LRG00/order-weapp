@@ -1,6 +1,8 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/me/me",
+    "pages/order/order",
     "pages/logs/logs"
   ],
   "tabBar": {
@@ -13,14 +15,20 @@
         "pagePath": "pages/index/index"
       },
       {
-        "pagePath": "pages/logs/logs"
+        "pagePath": "pages/order/order"
+      },
+      {
+        "pagePath": "pages/me/me"
       }
     ]
   },
   "usingComponents": {
     "van-button": "vant-weapp/button",
-      "van-tabbar": "vant-weapp/tabbar",
-      "van-tabbar-item": "vant-weapp/tabbar-item"
+    "van-sidebar": "vant-weapp/sidebar",
+    "van-sidebar-item": "vant-weapp/sidebar-item",
+    "van-tree-select": "vant-weapp/tree-select",
+    "van-tabbar": "vant-weapp/tabbar",
+    "van-tabbar-item": "vant-weapp/tabbar-item"
   },
   "window": {
     "backgroundTextStyle": "light",

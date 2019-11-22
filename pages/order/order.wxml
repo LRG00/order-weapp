@@ -1,0 +1,10 @@
+<!--index.wxml-->
+
+  <van-tree-select
+  items="{{ items }}"
+  main-active-index="{{ mainActiveIndex }}"
+  active-id="{{ activeId }}"
+  bind:click-nav="onClickNav"
+  bind:click-item="onClickItem"
+  />
+  <image src="https://img.yzcdn.cn/vant/apple-1.jpg" slot="content" />
