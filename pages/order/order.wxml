@@ -1,10 +1,92 @@
 <!--index.wxml-->
-
+<view>
   <van-tree-select
+  class="main-wrap"
   items="{{ items }}"
   main-active-index="{{ mainActiveIndex }}"
   active-id="{{ activeId }}"
   bind:click-nav="onClickNav"
   bind:click-item="onClickItem"
-  />
-  <image src="https://img.yzcdn.cn/vant/apple-1.jpg" slot="content" />
+  >
+    <view slot="content">
+      <van-card
+        num="2"
+        tag="标签"
+        price="10.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="https://cp1.douguo.com/upload/caiku/7/4/2/yuan_74ee3e1d09b6e79165de00d73bc41f42.jpeg"
+      >
+        <view slot="footer">
+          <text size="mini">按钮{{content}}</text>
+          <text size="mini">按钮{{content}}</text>
+        </view>
+      </van-card>
+      <van-card
+        num="2"
+        tag="新品"
+        price="10.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="https://cp1.douguo.com/upload/caiku/7/4/2/yuan_74ee3e1d09b6e79165de00d73bc41f42.jpeg"
+      >
+        <view slot="footer">
+          <text size="mini">按钮{{content}}</text>
+          <text size="mini">按钮{{content}}</text>
+        </view>
+      </van-card>
+      <van-card
+        num="2"
+        tag="标签"
+        price="10.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="https://cp1.douguo.com/upload/caiku/7/4/2/yuan_74ee3e1d09b6e79165de00d73bc41f42.jpeg"
+      >
+        <view slot="footer">
+          <text size="mini">按钮{{content}}</text>
+          <text size="mini">按钮{{content}}</text>
+        </view>
+      </van-card>
+      <van-card
+        num="2"
+        tag="标签"
+        price="10.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="https://cp1.douguo.com/upload/caiku/7/4/2/yuan_74ee3e1d09b6e79165de00d73bc41f42.jpeg"
+      >
+        <view slot="footer">
+          <text size="mini">按钮{{content}}</text>
+          <text size="mini">按钮{{content}}</text>
+        </view>
+      </van-card>
+      <van-card
+        num="2"
+        tag="标签"
+        price="10.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="https://cp1.douguo.com/upload/caiku/7/4/2/yuan_74ee3e1d09b6e79165de00d73bc41f42.jpeg"
+      >
+        <view slot="footer">
+          <text size="mini">按钮{{content}}</text>
+          <text size="mini">按钮{{content}}</text>
+        </view>
+      </van-card>
+      <van-card
+        num="2"
+        tag="标签"
+        price="10.00"
+        desc="描述信息"
+        title="商品标题"
+        thumb="https://cp1.douguo.com/upload/caiku/7/4/2/yuan_74ee3e1d09b6e79165de00d73bc41f42.jpeg"
+      >
+        <view slot="footer">
+          <text size="mini">按钮{{content}}</text>
+          <text size="mini">按钮{{content}}</text>
+        </view>
+      </van-card>
+    </view>
+  </van-tree-select>
+</view>
