@@ -3,6 +3,8 @@
     "pages/index/index",
     "pages/me/me",
     "pages/order/order",
+    "pages/course/course",
+    "pages/about/about",
     "pages/logs/logs"
   ],
   "tabBar": {
